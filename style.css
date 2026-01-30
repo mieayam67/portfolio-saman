@@ -1,0 +1,75 @@
+/* Reset dasar supaya tampilan konsisten */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Avatar bulat */
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Semua section */
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Judul section */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Skills list */
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    background-color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Project card */
+.project-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+    /* Animasi hover sederhana */
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
